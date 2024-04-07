@@ -45,7 +45,8 @@ jobs:
       - name: Setup Project
         run: |
           echo "Current directory: $(pwd): $GITHUB_WORKSPACE"
-          cp ~/devel/foo/src/*.h ~/devel/foo/include
+          cp ~/devel/foo/src/logging.h ~/devel/foo/include
+          cp ~/devel/foo/src/config.h ~/devel/foo/include
           export INCLUDEDIR=~/foo/include
           make install
           cp $GITHUB_WORKSPACE/Makefile_01 ~/devel/foo/lib
