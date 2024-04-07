@@ -31,6 +31,17 @@ jobs:
           cd ~/devel/foo/src
           mkdir -m 755 facilities
           cd ~/devel/foo/src/facilities
+          cp $GITHUB_WORKSPACE/includes/* ~/devel/foo/src/facilities
+          cp $GITHUB_WORKSPACE/src/* ~/devel/foo/src/facilities
+          cp $GITHUB_WORKSPACE/Makefile ~/devel/foo/src/facilities
+          make
+          echo "-- devel --"
+          ls ~/devel/foo
+          echo "-- foo --"
+          ls ~/devel/foo/src
+          echo "-- src --"
+          ls ~/devel/foo/facilities
+          
 
           
           
