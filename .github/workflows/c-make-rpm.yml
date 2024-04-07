@@ -51,10 +51,10 @@ jobs:
           cp ~/devel/foo/src/facilities/config.h ~/devel/foo/include/facilities
           ls ~/devel/foo/include/facilities
           export INCLUDEDIR=~/foo/include
-          make install
-          cp $GITHUB_WORKSPACE/Makefile_01 ~/devel/foo/lib
-          export LIBDIR=~/foo/lib
-          make install
+          # make install
+          # cp $GITHUB_WORKSPACE/Makefile_01 ~/devel/foo/lib
+          # export LIBDIR=~/foo/lib
+          # make install
                     
           
       - name: Print
