@@ -39,8 +39,8 @@ jobs:
           ls ~/devel/foo
           echo "-- foo --"
           ls ~/devel/foo/src
-          echo "-- src --"
-          ls ~/devel/foo/src/facilities
+          echo "-- lib --"
+          ls ~/devel/foo/lib
           
 
           
