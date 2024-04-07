@@ -1,0 +1,8 @@
+clean:
+	rm -f *.so
+
+install:
+	install -m 0755 -d $(ROOT)$(LIBDIR)
+	install -m 0755 *.so $(ROOT)$(LIBDIR)
+
+dist:
