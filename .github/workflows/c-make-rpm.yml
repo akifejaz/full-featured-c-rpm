@@ -40,7 +40,7 @@ jobs:
           echo "-- foo --"
           ls ~/devel/foo/src
           echo "-- src --"
-          ls ~/devel/foo/facilities
+          ls ~/devel/foo/src/facilities
           
 
           
